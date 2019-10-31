@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Climatic niches in space and time | Joint seasonality in geographic and ecological spaces, illustrated with a partially migratory bird</title>
+  <meta name="description" content="Study of seasonal patterns of wood stork, both in geographic space (distribution) and environmental space (climatic niche)." />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Climatic niches in space and time | Joint seasonality in geographic and ecological spaces, illustrated with a partially migratory bird" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Study of seasonal patterns of wood stork, both in geographic space (distribution) and environmental space (climatic niche)." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Climatic niches in space and time | Joint seasonality in geographic and ecological spaces, illustrated with a partially migratory bird" />
+  
+  <meta name="twitter:description" content="Study of seasonal patterns of wood stork, both in geographic space (distribution) and environmental space (climatic niche)." />
+  
+
+<meta name="author" content="Mathieu Basille, James Watling, Stephanie Romañach, Rena Borkhataria" />
+
+
+<meta name="date" content="2019-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data.html"/>
+<link rel="next" href="figures.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="_custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Climatic niche in space and time</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data preprocessing</a><ul>
+<li class="chapter" data-level="2.1" data-path="data.html"><a href="data.html#data-import-gps-and-raster-data"><i class="fa fa-check"></i><b>2.1</b> Data import: GPS and raster data</a></li>
+<li class="chapter" data-level="2.2" data-path="data.html"><a href="data.html#environmental-intersection"><i class="fa fa-check"></i><b>2.2</b> Environmental intersection</a></li>
+<li class="chapter" data-level="2.3" data-path="data.html"><a href="data.html#sampling-the-point-data"><i class="fa fa-check"></i><b>2.3</b> Sampling the point data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="niches.html"><a href="niches.html"><i class="fa fa-check"></i><b>3</b> Climatic niches in space and time</a><ul>
+<li class="chapter" data-level="3.1" data-path="niches.html"><a href="niches.html#utilization-distributions"><i class="fa fa-check"></i><b>3.1</b> Utilization distributions</a></li>
+<li class="chapter" data-level="3.2" data-path="niches.html"><a href="niches.html#monthly-climatic-niches"><i class="fa fa-check"></i><b>3.2</b> Monthly climatic niches</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="figures.html"><a href="figures.html"><i class="fa fa-check"></i><b>4</b> Manuscript figures</a><ul>
+<li class="chapter" data-level="4.1" data-path="figures.html"><a href="figures.html#fig.1-monthly-ranges-and-climatic-niches"><i class="fa fa-check"></i><b>4.1</b> Fig.1: Monthly ranges and climatic niches</a></li>
+<li class="chapter" data-level="4.2" data-path="figures.html"><a href="figures.html#fig.2-overlap-matrices"><i class="fa fa-check"></i><b>4.2</b> Fig.2: Overlap matrices</a></li>
+<li class="chapter" data-level="4.3" data-path="figures.html"><a href="figures.html#fig.3-marginality"><i class="fa fa-check"></i><b>4.3</b> Fig.3: Marginality</a></li>
+<li class="chapter" data-level="4.4" data-path="figures.html"><a href="figures.html#metadata-s1-animation-over-the-year"><i class="fa fa-check"></i><b>4.4</b> Metadata S1: Animation over the year</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="session.html"><a href="session.html"><i class="fa fa-check"></i><b>5</b> R session information</a></li>
+<li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Joint seasonality in geographic and ecological spaces, illustrated with a partially migratory bird</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="niches" class="section level1">
+<h1><span class="header-section-number">3</span> Climatic niches in space and time</h1>
+<div id="utilization-distributions" class="section level2">
+<h2><span class="header-section-number">3.1</span> Utilization distributions</h2>
+<p>For each month, we compute the density of GPS locations using a kernel estimator (<code>kernelUD</code> in adehabitatHR): <!-- , as well as the mode of the --> <!-- kernel, i.e. the point with the highest density (note that results are --> <!-- fairly similar using the barycenter of locations). --></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">monthKerAll &lt;-<span class="st"> </span>hab::<span class="kw">kernelUD</span>(monthLocsAll[<span class="st">&quot;month&quot;</span>], <span class="dt">grid =</span> <span class="kw">as</span>(rast, <span class="st">&quot;SpatialPixels&quot;</span>))
+monthKerAllSp &lt;-<span class="st"> </span><span class="kw">estUDm2spixdf</span>(monthKerAll)</code></pre></div>
+<p>We illustrate it with the example of the temperatures in January:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>() +<span class="st"> </span><span class="kw">geom_raster</span>(<span class="dt">data =</span> rastDF, <span class="kw">aes_string</span>(<span class="dt">x =</span> <span class="st">&quot;x&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;y&quot;</span>, <span class="dt">fill =</span> <span class="kw">names</span>(rastDF)[<span class="dv">4</span>])) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_sf</span>(<span class="dt">data =</span> states, <span class="dt">fill =</span> <span class="ot">NA</span>, <span class="dt">size =</span> <span class="fl">0.2</span>, <span class="dt">colour =</span> <span class="kw">gray</span>(<span class="fl">0.2</span>)) +<span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(wost), 
+    <span class="kw">aes</span>(<span class="dt">x =</span> x, <span class="dt">y =</span> y), <span class="dt">shape =</span> <span class="dv">20</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">stroke =</span> <span class="dv">0</span>, <span class="dt">colour =</span> <span class="st">&quot;gray&quot;</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_point</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(monthLocs[[<span class="dv">1</span>]]), <span class="kw">aes</span>(<span class="dt">x =</span> x, <span class="dt">y =</span> y), <span class="dt">shape =</span> <span class="dv">20</span>, 
+        <span class="dt">size =</span> <span class="fl">0.3</span>) +<span class="st"> </span><span class="kw">geom_contour</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(monthKerAll[[<span class="dv">1</span>]]), <span class="kw">aes</span>(<span class="dt">x =</span> Var2, 
+    <span class="dt">y =</span> Var1, <span class="dt">z =</span> ud), <span class="dt">colour =</span> <span class="st">&quot;black&quot;</span>) +<span class="st"> </span><span class="kw">coord_sf</span>(<span class="dt">xlim =</span> <span class="kw">c</span>(-<span class="dv">92</span>, -<span class="fl">77.5</span>), <span class="dt">ylim =</span> <span class="kw">c</span>(<span class="fl">24.5</span>, 
+    <span class="dv">35</span>), <span class="dt">expand =</span> <span class="ot">FALSE</span>) +<span class="st"> </span><span class="kw">scale_fill_viridis</span>(<span class="dt">end =</span> <span class="fl">0.8</span>, <span class="dt">alpha =</span> <span class="dv">1</span>, <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;Latitude&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Longitude&quot;</span>) +<span class="st"> </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:niche-plot-kernel"></span>
+<img src="_main_files/figure-html/niche-plot-kernel-1.png" alt="Range estimation in January using kernel density estimator." width="70%" />
+<p class="caption">
+Figure 3.1: Range estimation in January using kernel density estimator.
+</p>
+</div>
+<p>Finally, we can quantify spatial overlap over time by estimating kernel overlap. To do this, we use the Bhattacharyya’s affinity (BA), a synthetic measure (i.e. symmetric), which is more appropriate to quantify the overall similarity of two UDs (see <span class="citation">Fieberg and Kochanny (<a href="#ref-Fieberg_2005">2005</a>)</span> for more details).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">class</span>(monthKerAll)</code></pre></div>
+<pre><code>## [1] &quot;estUDm&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">overGeo &lt;-<span class="st"> </span>hab::<span class="kw">kerneloverlap</span>(monthKerAll, <span class="dt">method =</span> <span class="st">&quot;BA&quot;</span>)
+<span class="kw">round</span>(overGeo, <span class="dv">2</span>)</code></pre></div>
+<pre><code>##       1    2    3    4    5    6    7    8    9   10   11   12
+## 1  1.00 0.97 0.91 0.72 0.71 0.60 0.51 0.51 0.53 0.68 0.87 0.96
+## 2  0.97 1.00 0.94 0.76 0.74 0.64 0.54 0.54 0.55 0.69 0.87 0.95
+## 3  0.91 0.94 0.99 0.89 0.87 0.79 0.68 0.68 0.69 0.83 0.92 0.93
+## 4  0.72 0.76 0.89 0.99 0.99 0.95 0.86 0.85 0.84 0.91 0.86 0.79
+## 5  0.71 0.74 0.87 0.99 0.99 0.96 0.87 0.85 0.84 0.90 0.84 0.78
+## 6  0.60 0.64 0.79 0.95 0.96 1.00 0.95 0.93 0.92 0.93 0.79 0.68
+## 7  0.51 0.54 0.68 0.86 0.87 0.95 1.00 0.98 0.97 0.90 0.71 0.59
+## 8  0.51 0.54 0.68 0.85 0.85 0.93 0.98 1.00 0.98 0.91 0.71 0.60
+## 9  0.53 0.55 0.69 0.84 0.84 0.92 0.97 0.98 1.00 0.94 0.74 0.63
+## 10 0.68 0.69 0.83 0.91 0.90 0.93 0.90 0.91 0.94 1.00 0.89 0.78
+## 11 0.87 0.87 0.92 0.86 0.84 0.79 0.71 0.71 0.74 0.89 1.00 0.94
+## 12 0.96 0.95 0.93 0.79 0.78 0.68 0.59 0.60 0.63 0.78 0.94 0.99
+## attr(,&quot;method&quot;)
+## [1] &quot;BA&quot;
+## attr(,&quot;class&quot;)
+## [1] &quot;kerneloverlap&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="fl">4.5</span>, <span class="fl">4.5</span>, <span class="dv">0</span>, <span class="dv">0</span>) +<span class="st"> </span><span class="fl">0.1</span>)
+<span class="kw">image</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">y =</span> <span class="dv">1</span>:<span class="dv">12</span>, overGeo, <span class="dt">asp =</span> <span class="dv">1</span>, <span class="dt">col =</span> <span class="kw">viridis</span>(<span class="dv">100</span>, <span class="dt">direction =</span> -<span class="dv">1</span>, 
+    <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>, <span class="dt">alpha =</span> <span class="fl">0.8</span>), <span class="dt">axes =</span> <span class="ot">FALSE</span>, <span class="dt">xlab =</span> <span class="st">&quot;&quot;</span>, <span class="dt">ylab =</span> <span class="st">&quot;&quot;</span>, <span class="dt">cex.lab =</span> <span class="fl">1.5</span>)
+<span class="kw">axis</span>(<span class="dv">1</span>, <span class="dt">at =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">labels =</span> month.abb, <span class="dt">tick =</span> <span class="ot">FALSE</span>, <span class="dt">line =</span> -<span class="fl">0.7</span>)
+<span class="kw">axis</span>(<span class="dv">2</span>, <span class="dt">at =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">labels =</span> month.abb, <span class="dt">tick =</span> <span class="ot">FALSE</span>, <span class="dt">line =</span> -<span class="fl">0.7</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;Month&quot;</span>, <span class="dt">side =</span> <span class="dv">1</span>, <span class="dt">line =</span> <span class="dv">2</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;Month&quot;</span>, <span class="dt">side =</span> <span class="dv">2</span>, <span class="dt">line =</span> <span class="fl">1.7</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;A) Geographic overlap&quot;</span>, <span class="dt">side =</span> <span class="dv">3</span>, <span class="dt">line =</span> <span class="fl">0.6</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+lab &lt;-<span class="st"> </span><span class="kw">expand.grid</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">y =</span> <span class="dv">1</span>:<span class="dv">12</span>)
+lab$val &lt;-<span class="st"> </span><span class="kw">as.vector</span>(<span class="kw">round</span>(overGeo *<span class="st"> </span><span class="dv">100</span>, <span class="dv">0</span>))
+<span class="kw">text</span>(lab$x, lab$y, lab$val, <span class="dt">cex =</span> <span class="dv">1</span> +<span class="st"> </span>(lab$val -<span class="st"> </span><span class="dv">50</span>)/<span class="dv">100</span>, <span class="dt">col =</span> <span class="kw">ifelse</span>(lab$val &gt;=<span class="st"> </span>
+<span class="st">    </span><span class="dv">80</span>, <span class="st">&quot;white&quot;</span>, <span class="st">&quot;black&quot;</span>))
+<span class="kw">polygon</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="kw">rep</span>(<span class="dv">0</span>:<span class="dv">12</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="kw">rep</span>(<span class="dv">11</span>:<span class="dv">1</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="fl">0.5</span>), <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">1</span>, 
+    <span class="kw">rep</span>(<span class="dv">0</span>:<span class="dv">11</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="kw">rep</span>(<span class="dv">12</span>:<span class="dv">1</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>)), <span class="dt">col =</span> <span class="kw">grey</span>(<span class="fl">0.7</span>), 
+    <span class="dt">border =</span> <span class="ot">NA</span>)
+<span class="kw">abline</span>(<span class="dt">h =</span> <span class="kw">c</span>(<span class="fl">3.5</span>, <span class="fl">10.5</span>), <span class="dt">v =</span> <span class="kw">c</span>(<span class="fl">3.5</span>, <span class="fl">10.5</span>), <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">0</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)
+<span class="kw">polygon</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">5</span>, <span class="dv">9</span>, <span class="dv">9</span>, <span class="dv">5</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">9</span>, <span class="dv">9</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">10</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)</code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:niche-kernel-overlap"></span>
+<img src="_main_files/figure-html/niche-kernel-overlap-1.png" alt="Matrix of spatial overlap month-by-month." width="70%" />
+<p class="caption">
+Figure 3.2: Matrix of spatial overlap month-by-month.
+</p>
+</div>
+<p>The map of the overlap reveals mostly two periods with heavy overlap (&gt; 80%), i.e. similar monthly distributions in the landscape:</p>
+<ul>
+<li>Winter, from November to March;</li>
+<li>Summer, from April to October, with June-September being over 90% overlap.</li>
+</ul>
+</div>
+<div id="monthly-climatic-niches" class="section level2">
+<h2><span class="header-section-number">3.2</span> Monthly climatic niches</h2>
+<p>Finally, we consider the monhtly climatic niches in the ecological space. For this, we need the yearly conditions, i.e. the rasters for the 12 months combined, as a reference frame:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">clim &lt;-<span class="st"> </span><span class="kw">values</span>(rast)
+clim &lt;-<span class="st"> </span><span class="kw">na.omit</span>(<span class="kw">data.frame</span>(<span class="dt">prec =</span> <span class="kw">c</span>(clim[, <span class="dv">1</span>], clim[, <span class="dv">3</span>], clim[, <span class="dv">5</span>], clim[, 
+    <span class="dv">7</span>], clim[, <span class="dv">9</span>], clim[, <span class="dv">11</span>], clim[, <span class="dv">13</span>], clim[, <span class="dv">15</span>], clim[, <span class="dv">17</span>], clim[, <span class="dv">19</span>], 
+    clim[, <span class="dv">21</span>], clim[, <span class="dv">23</span>]), <span class="dt">temp =</span> <span class="kw">c</span>(clim[, <span class="dv">2</span>], clim[, <span class="dv">4</span>], clim[, <span class="dv">6</span>], clim[, 
+    <span class="dv">8</span>], clim[, <span class="dv">10</span>], clim[, <span class="dv">12</span>], clim[, <span class="dv">14</span>], clim[, <span class="dv">16</span>], clim[, <span class="dv">18</span>], clim[, <span class="dv">20</span>], 
+    clim[, <span class="dv">22</span>], clim[, <span class="dv">24</span>]), <span class="dt">month =</span> <span class="kw">rep</span>(<span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">each =</span> <span class="kw">dim</span>(rast)[<span class="dv">1</span>] *<span class="st"> </span><span class="kw">dim</span>(rast)[<span class="dv">2</span>])))
+<span class="kw">dim</span>(clim)</code></pre></div>
+<pre><code>## [1] 22872     3</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">table</span>(clim$month)</code></pre></div>
+<pre><code>## 
+##    1    2    3    4    5    6    7    8    9   10   11   12 
+## 1906 1906 1906 1906 1906 1906 1906 1906 1906 1906 1906 1906</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor</span>(clim$prec, clim$temp)</code></pre></div>
+<pre><code>## [1] 0.1826839</code></pre>
+<p>Note that, over Florida and the 12 months, the correlation between precipitation and temperature is fairly low.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">climMean &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">do.call</span>(rbind, <span class="kw">by</span>(clim[, <span class="dv">1</span>:<span class="dv">2</span>], clim$month, colMeans, 
+    <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)))
+locsMean &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">do.call</span>(rbind, <span class="kw">lapply</span>(monthLocs, function(x) <span class="kw">colMeans</span>(x@data[, 
+    <span class="kw">c</span>(<span class="st">&quot;prec&quot;</span>, <span class="st">&quot;temp&quot;</span>)], <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))))
+(climNiches &lt;-<span class="st"> </span>locsMean -<span class="st"> </span>climMean)</code></pre></div>
+<pre><code>##          prec      temp
+## 1  -56.736596 8.0292936
+## 2  -50.801219 6.8600189
+## 3  -51.298637 4.7433414
+## 4  -30.517845 2.3709531
+## 5    8.318321 1.6036885
+## 6   31.980398 0.6339109
+## 7   13.674096 0.3553282
+## 8   24.309066 0.4430989
+## 9   27.424084 1.1019436
+## 10   7.227975 3.1850390
+## 11 -27.819595 5.4216113
+## 12 -58.646488 6.9947208</code></pre>
+<p>We use once again January as an example for the climatic niches. In this representation, light gray points represent the overall (yearly) conditions in Florida; dark grey points are the climatic conditions of the month of interest (here January), and black points are the conditions actually experienced by wood stork (i.e. at the GPS locations). The arrows connects the mean conditions of the month to the mean used conditions.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="st">&quot;ggrepel&quot;</span>)
+<span class="kw">ggplot</span>(clim, <span class="kw">aes</span>(<span class="dt">x =</span> prec, <span class="dt">y =</span> temp)) +<span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">size =</span> <span class="fl">0.1</span>, <span class="dt">colour =</span> <span class="kw">gray</span>(<span class="fl">0.9</span>)) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_point</span>(<span class="dt">data =</span> <span class="kw">subset</span>(clim, month ==<span class="st"> </span><span class="dv">1</span>), <span class="dt">pch =</span> <span class="dv">15</span>, <span class="dt">colour =</span> <span class="kw">gray</span>(<span class="fl">0.7</span>), 
+        <span class="dt">size =</span> <span class="dv">4</span>) +<span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(monthLocs[[<span class="dv">1</span>]]), <span class="dt">pch =</span> <span class="dv">20</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> climMean$prec[<span class="dv">1</span>], <span class="dt">xend =</span> locsMean$prec[<span class="dv">1</span>], <span class="dt">y =</span> climMean$temp[<span class="dv">1</span>], 
+        <span class="dt">yend =</span> locsMean$temp[<span class="dv">1</span>]), <span class="dt">arrow =</span> <span class="kw">arrow</span>(), <span class="dt">lineend =</span> <span class="st">&quot;round&quot;</span>, <span class="dt">size =</span> <span class="fl">4.5</span>, 
+        <span class="dt">arrow.fill =</span> <span class="st">&quot;white&quot;</span>) +<span class="st"> </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> climMean$prec[<span class="dv">1</span>], <span class="dt">xend =</span> locsMean$prec[<span class="dv">1</span>], 
+    <span class="dt">y =</span> climMean$temp[<span class="dv">1</span>], <span class="dt">yend =</span> locsMean$temp[<span class="dv">1</span>]), <span class="dt">arrow =</span> <span class="kw">arrow</span>(), <span class="dt">lineend =</span> <span class="st">&quot;round&quot;</span>, 
+    <span class="dt">size =</span> <span class="dv">2</span>, <span class="dt">colour =</span> <span class="st">&quot;white&quot;</span>) +<span class="st"> </span><span class="kw">geom_label_repel</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(<span class="dt">x =</span> <span class="kw">c</span>(climMean$prec[<span class="dv">1</span>], 
+    locsMean$prec[<span class="dv">1</span>]), <span class="dt">y =</span> <span class="kw">c</span>(climMean$temp[<span class="dv">1</span>], locsMean$temp[<span class="dv">1</span>]), <span class="dt">label =</span> <span class="kw">c</span>(<span class="st">&quot;A&quot;</span>, 
+    <span class="st">&quot;U&quot;</span>)), <span class="kw">aes</span>(<span class="dt">x =</span> x, <span class="dt">y =</span> y, <span class="dt">label =</span> label), <span class="dt">fill =</span> <span class="kw">c</span>(<span class="kw">gray</span>(<span class="fl">0.7</span>), <span class="st">&quot;black&quot;</span>), <span class="dt">colour =</span> <span class="kw">c</span>(<span class="st">&quot;black&quot;</span>, 
+    <span class="st">&quot;white&quot;</span>), <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">fontface =</span> <span class="st">&quot;bold&quot;</span>, <span class="dt">force =</span> <span class="dv">10</span>, <span class="dt">segment.color =</span> <span class="ot">NA</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">annotate</span>(<span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">185</span>, <span class="dt">y =</span> <span class="dv">18</span>, <span class="dt">hjust =</span> <span class="dv">0</span>, <span class="dt">vjust =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">label =</span> month.name[<span class="dv">1</span>]) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;Precipitation (mm)&quot;</span>, <span class="dt">y =</span> <span class="kw">expression</span>(<span class="st">`</span><span class="dt">Temperature </span><span class="st">`</span>(degree ~<span class="st"> </span>C)))</code></pre></div>
+<pre><code>## Warning: Removed 35 rows containing missing values (geom_point).</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:niche-plot-jan"></span>
+<img src="_main_files/figure-html/niche-plot-jan-1.png" alt="Climatic niche in environmental space in January." width="70%" />
+<p class="caption">
+Figure 3.3: Climatic niche in environmental space in January.
+</p>
+</div>
+<p>Now similarly to the geographic space, we can use data in a 2D-environmental space to compute kernel overlap. In this case, we use (standardized) temperature and precipitation values as the two coordinate axes to define monthly use (with <code>month</code> being the only column of a <code>SpatialPointsDataFrame</code>):</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">colNA</span>(monthLocsAll@data[, <span class="kw">c</span>(<span class="st">&quot;month&quot;</span>, <span class="st">&quot;prec&quot;</span>, <span class="st">&quot;temp&quot;</span>)])</code></pre></div>
+<pre><code>## month  prec  temp 
+##     0   376   375</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">monthNiche &lt;-<span class="st"> </span><span class="kw">with</span>(<span class="kw">na.omit</span>(monthLocsAll@data[, <span class="kw">c</span>(<span class="st">&quot;month&quot;</span>, <span class="st">&quot;prec&quot;</span>, <span class="st">&quot;temp&quot;</span>)]), 
+    <span class="kw">SpatialPointsDataFrame</span>(<span class="kw">data.frame</span>(<span class="dt">precN =</span> (prec -<span class="st"> </span><span class="kw">min</span>(prec))/(<span class="kw">max</span>(prec) -<span class="st"> </span>
+<span class="st">        </span><span class="kw">min</span>(prec)), <span class="dt">tempN =</span> (temp -<span class="st"> </span><span class="kw">min</span>(temp))/(<span class="kw">max</span>(temp) -<span class="st"> </span><span class="kw">min</span>(temp))), <span class="kw">data.frame</span>(month)))
+<span class="kw">summary</span>(monthNiche)</code></pre></div>
+<pre><code>## Object of class SpatialPointsDataFrame
+## Coordinates:
+##       min max
+## precN   0   1
+## tempN   0   1
+## Is projected: NA 
+## proj4string : [NA]
+## Number of points: 59624
+## Data attributes:
+##      month       
+##  Min.   : 1.000  
+##  1st Qu.: 3.000  
+##  Median : 6.000  
+##  Mean   : 6.484  
+##  3rd Qu.: 9.000  
+##  Max.   :12.000</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(monthNiche, <span class="dt">col =</span> <span class="kw">factor</span>(monthNiche$month))</code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:niche-2d-clim"></span>
+<img src="_main_files/figure-html/niche-2d-clim-1.png" alt="Representation of the monthly climatic niches as a coordinates in a 2D-space (precipitation and temperature)." width="70%" />
+<p class="caption">
+Figure 3.4: Representation of the monthly climatic niches as a coordinates in a 2D-space (precipitation and temperature).
+</p>
+</div>
+<p>The overlap can then be computed and plotted just like before:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">overClim &lt;-<span class="st"> </span>hab::<span class="kw">kerneloverlap</span>(monthNiche, <span class="dt">method =</span> <span class="st">&quot;BA&quot;</span>)
+<span class="kw">round</span>(overClim, <span class="dv">2</span>)</code></pre></div>
+<pre><code>##       1    2    3    4    5    6    7    8    9   10   11   12
+## 1  1.00 0.68 0.02 0.10 0.00 0.00 0.00 0.00 0.00 0.12 0.39 0.71
+## 2  0.68 1.00 0.08 0.20 0.00 0.00 0.00 0.00 0.00 0.19 0.37 0.54
+## 3  0.02 0.08 1.00 0.47 0.01 0.00 0.00 0.00 0.01 0.45 0.49 0.05
+## 4  0.10 0.20 0.47 1.00 0.06 0.00 0.00 0.00 0.08 0.53 0.45 0.06
+## 5  0.00 0.00 0.01 0.06 1.00 0.27 0.01 0.06 0.60 0.51 0.06 0.00
+## 6  0.00 0.00 0.00 0.00 0.27 1.00 0.49 0.60 0.69 0.15 0.00 0.00
+## 7  0.00 0.00 0.00 0.00 0.01 0.49 1.00 0.83 0.49 0.01 0.00 0.00
+## 8  0.00 0.00 0.00 0.00 0.06 0.60 0.83 1.00 0.58 0.05 0.00 0.00
+## 9  0.00 0.00 0.01 0.08 0.60 0.69 0.49 0.58 1.00 0.47 0.02 0.00
+## 10 0.12 0.19 0.45 0.53 0.51 0.15 0.01 0.05 0.47 1.00 0.33 0.09
+## 11 0.39 0.37 0.49 0.45 0.06 0.00 0.00 0.00 0.02 0.33 1.00 0.36
+## 12 0.71 0.54 0.05 0.06 0.00 0.00 0.00 0.00 0.00 0.09 0.36 1.00
+## attr(,&quot;method&quot;)
+## [1] &quot;BA&quot;
+## attr(,&quot;class&quot;)
+## [1] &quot;kerneloverlap&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="fl">4.5</span>, <span class="fl">4.5</span>, <span class="dv">0</span>, <span class="dv">0</span>) +<span class="st"> </span><span class="fl">0.1</span>)
+<span class="kw">image</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">y =</span> <span class="dv">1</span>:<span class="dv">12</span>, overClim, <span class="dt">asp =</span> <span class="dv">1</span>, <span class="dt">col =</span> <span class="kw">viridis</span>(<span class="dv">100</span>, <span class="dt">direction =</span> -<span class="dv">1</span>, 
+    <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>, <span class="dt">alpha =</span> <span class="fl">0.8</span>), <span class="dt">axes =</span> <span class="ot">FALSE</span>, <span class="dt">xlab =</span> <span class="st">&quot;&quot;</span>, <span class="dt">ylab =</span> <span class="st">&quot;&quot;</span>, <span class="dt">cex.lab =</span> <span class="fl">1.5</span>)
+<span class="kw">axis</span>(<span class="dv">1</span>, <span class="dt">at =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">labels =</span> month.abb, <span class="dt">tick =</span> <span class="ot">FALSE</span>, <span class="dt">line =</span> -<span class="fl">0.7</span>)
+<span class="kw">axis</span>(<span class="dv">2</span>, <span class="dt">at =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">labels =</span> month.abb, <span class="dt">tick =</span> <span class="ot">FALSE</span>, <span class="dt">line =</span> -<span class="fl">0.7</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;Month&quot;</span>, <span class="dt">side =</span> <span class="dv">1</span>, <span class="dt">line =</span> <span class="dv">2</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;Month&quot;</span>, <span class="dt">side =</span> <span class="dv">2</span>, <span class="dt">line =</span> <span class="fl">1.7</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+<span class="kw">mtext</span>(<span class="st">&quot;B) Climatic overlap&quot;</span>, <span class="dt">side =</span> <span class="dv">3</span>, <span class="dt">line =</span> <span class="fl">0.6</span>, <span class="dt">cex =</span> <span class="fl">1.5</span>)
+lab &lt;-<span class="st"> </span><span class="kw">expand.grid</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">y =</span> <span class="dv">1</span>:<span class="dv">12</span>)
+lab$val &lt;-<span class="st"> </span><span class="kw">as.vector</span>(<span class="kw">round</span>(overClim *<span class="st"> </span><span class="dv">100</span>, <span class="dv">0</span>))
+<span class="kw">text</span>(lab$x, lab$y, lab$val, <span class="dt">cex =</span> <span class="dv">1</span> +<span class="st"> </span>(lab$val -<span class="st"> </span><span class="dv">50</span>)/<span class="dv">100</span>, <span class="dt">col =</span> <span class="kw">ifelse</span>(lab$val &gt;=<span class="st"> </span>
+<span class="st">    </span><span class="dv">90</span>, <span class="st">&quot;white&quot;</span>, <span class="st">&quot;black&quot;</span>))
+<span class="kw">polygon</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="kw">rep</span>(<span class="dv">0</span>:<span class="dv">12</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="kw">rep</span>(<span class="dv">11</span>:<span class="dv">1</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="fl">0.5</span>), <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">1</span>, 
+    <span class="kw">rep</span>(<span class="dv">0</span>:<span class="dv">11</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>), <span class="kw">rep</span>(<span class="dv">12</span>:<span class="dv">1</span> +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">each =</span> <span class="dv">2</span>)), <span class="dt">col =</span> <span class="kw">grey</span>(<span class="fl">0.7</span>), 
+    <span class="dt">border =</span> <span class="ot">NA</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">0</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">polygon</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">5</span>, <span class="dv">9</span>, <span class="dv">9</span>, <span class="dv">5</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">9</span>, <span class="dv">9</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">10</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">lines</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">y =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">2</span>) +<span class="st"> </span><span class="fl">0.5</span>, <span class="dt">lwd =</span> <span class="dv">4</span>)
+<span class="kw">abline</span>(<span class="dt">h =</span> <span class="kw">c</span>(<span class="fl">3.5</span>, <span class="fl">10.5</span>), <span class="dt">v =</span> <span class="kw">c</span>(<span class="fl">3.5</span>, <span class="fl">10.5</span>), <span class="dt">lwd =</span> <span class="dv">3</span>, <span class="dt">lty =</span> <span class="st">&quot;11&quot;</span>)</code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:niche-clim-overlap"></span>
+<img src="_main_files/figure-html/niche-clim-overlap-1.png" alt="Matrix of climatic overlap month-by-month." width="70%" />
+<p class="caption">
+Figure 3.5: Matrix of climatic overlap month-by-month.
+</p>
+</div>
+<p>We can see that the overlap is a lot lower in the climatic space than in the geographic space. The map of the overlap reveals mostly two periods with marked overlap (generally &gt; 30%), i.e. similar monthly niches:</p>
+<ul>
+<li>Winter, from November to February;</li>
+<li>Summer, from June to September (summer being fairly consistent with overlaps &gt; 45%);</li>
+</ul>
+<p>Another way to look at it is to consider only monthly selections, by centering everything on the monthly available conditions. In the left panel, we can see the three groups (winter in blue, summer in red, intermediate migratory in purple). In the right panel, we can see the evolution in selection through time.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">mar &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">prec =</span> climNiches$prec, <span class="dt">prec_end =</span> climNiches$prec[<span class="kw">c</span>(<span class="dv">2</span>:<span class="dv">12</span>, 
+    <span class="dv">1</span>)], <span class="dt">temp_end =</span> climNiches$temp[<span class="kw">c</span>(<span class="dv">2</span>:<span class="dv">12</span>, <span class="dv">1</span>)], <span class="dt">temp =</span> climNiches$temp, <span class="dt">month =</span> <span class="kw">c</span>(<span class="st">&quot;January&quot;</span>, 
+    <span class="st">&quot;February&quot;</span>, <span class="st">&quot;March&quot;</span>, <span class="st">&quot;April&quot;</span>, <span class="st">&quot;May&quot;</span>, <span class="st">&quot;June&quot;</span>, <span class="st">&quot;July&quot;</span>, <span class="st">&quot;August&quot;</span>, <span class="st">&quot;September&quot;</span>, 
+    <span class="st">&quot;October&quot;</span>, <span class="st">&quot;November&quot;</span>, <span class="st">&quot;December&quot;</span>), <span class="dt">abbr =</span> <span class="kw">c</span>(<span class="st">&quot;Jan&quot;</span>, <span class="st">&quot;Feb&quot;</span>, <span class="st">&quot;Mar&quot;</span>, <span class="st">&quot;Apr&quot;</span>, 
+    <span class="st">&quot;May&quot;</span>, <span class="st">&quot;Jun&quot;</span>, <span class="st">&quot;Jul&quot;</span>, <span class="st">&quot;Aug&quot;</span>, <span class="st">&quot;Sep&quot;</span>, <span class="st">&quot;Oct&quot;</span>, <span class="st">&quot;Nov&quot;</span>, <span class="st">&quot;Dec&quot;</span>), <span class="dt">nr =</span> <span class="dv">1</span>:<span class="dv">12</span>, <span class="dt">season =</span> <span class="kw">c</span>(<span class="kw">rep</span>(<span class="dv">2</span>, 
+    <span class="dv">4</span>), <span class="dv">1</span>, <span class="kw">rep</span>(<span class="dv">3</span>, <span class="dv">4</span>), <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>))
+<span class="kw">ggplot</span>(<span class="dt">data =</span> mar, <span class="kw">aes</span>(<span class="dt">x =</span> prec, <span class="dt">y =</span> temp, <span class="dt">colour =</span> season, <span class="dt">fill =</span> season)) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_vline</span>(<span class="dt">xintercept =</span> <span class="dv">0</span>) +<span class="st"> </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>) +<span class="st"> </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">0</span>, 
+    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">xend =</span> prec, <span class="dt">yend =</span> temp), <span class="dt">arrow =</span> <span class="kw">arrow</span>(), <span class="dt">lineend =</span> <span class="st">&quot;round&quot;</span>, <span class="dt">size =</span> <span class="dv">2</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_label_repel</span>(<span class="kw">aes</span>(<span class="dt">label =</span> abbr), <span class="dt">size =</span> <span class="dv">6</span>, <span class="dt">fontface =</span> <span class="st">&quot;bold&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;white&quot;</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">scale_color_viridis</span>(<span class="dt">end =</span> <span class="fl">0.8</span>, <span class="dt">direction =</span> -<span class="dv">1</span>, <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>) +<span class="st"> </span><span class="kw">scale_fill_viridis</span>(<span class="dt">end =</span> <span class="fl">0.8</span>, 
+    <span class="dt">direction =</span> -<span class="dv">1</span>, <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>) +<span class="st"> </span><span class="kw">xlim</span>(-<span class="dv">63</span>, <span class="dv">40</span>) +<span class="st"> </span><span class="kw">ylim</span>(<span class="dv">0</span>, <span class="fl">8.2</span>) +<span class="st"> </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;Precipitation difference (mm)&quot;</span>, 
+    <span class="dt">y =</span> <span class="kw">expression</span>(<span class="st">`</span><span class="dt">Temperature difference </span><span class="st">`</span>(degree ~<span class="st"> </span>C))) +<span class="st"> </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)
+<span class="kw">ggplot</span>(<span class="dt">data =</span> mar, <span class="kw">aes</span>(<span class="dt">x =</span> prec, <span class="dt">y =</span> temp, <span class="dt">xend =</span> prec_end, <span class="dt">yend =</span> temp_end, 
+    <span class="dt">colour =</span> season, <span class="dt">fill =</span> season)) +<span class="st"> </span><span class="kw">geom_vline</span>(<span class="dt">xintercept =</span> <span class="dv">0</span>) +<span class="st"> </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>) +<span class="st"> </span>
+<span class="st">    </span><span class="kw">geom_segment</span>(<span class="dt">arrow =</span> <span class="kw">arrow</span>(), <span class="dt">lineend =</span> <span class="st">&quot;round&quot;</span>, <span class="dt">size =</span> <span class="dv">2</span>) +<span class="st"> </span><span class="kw">geom_label_repel</span>(<span class="kw">aes</span>(<span class="dt">label =</span> nr), 
+    <span class="dt">size =</span> <span class="dv">6</span>, <span class="dt">fontface =</span> <span class="st">&quot;bold&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;white&quot;</span>) +<span class="st"> </span><span class="kw">scale_color_viridis</span>(<span class="dt">end =</span> <span class="fl">0.8</span>, 
+    <span class="dt">direction =</span> -<span class="dv">1</span>, <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>) +<span class="st"> </span><span class="kw">scale_fill_viridis</span>(<span class="dt">end =</span> <span class="fl">0.8</span>, <span class="dt">direction =</span> -<span class="dv">1</span>, 
+    <span class="dt">option =</span> <span class="st">&quot;plasma&quot;</span>) +<span class="st"> </span><span class="kw">xlim</span>(-<span class="dv">63</span>, <span class="dv">40</span>) +<span class="st"> </span><span class="kw">ylim</span>(<span class="dv">0</span>, <span class="fl">8.2</span>) +<span class="st"> </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;Precipitation difference (mm)&quot;</span>, 
+    <span class="dt">y =</span> <span class="kw">expression</span>(<span class="st">`</span><span class="dt">Temperature difference </span><span class="st">`</span>(degree ~<span class="st"> </span>C))) +<span class="st"> </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:niche-clim-months-sel"></span>
+<img src="_main_files/figure-html/niche-clim-months-sel-1.png" alt="Monthly selection in the climatic space (left) and the yearly cycle (right)." width="50%" /><img src="_main_files/figure-html/niche-clim-months-sel-2.png" alt="Monthly selection in the climatic space (left) and the yearly cycle (right)." width="50%" />
+<p class="caption">
+Figure 3.6: Monthly selection in the climatic space (left) and the yearly cycle (right).
+</p>
+</div>
+<!-- ## All months together -->
+<!-- The previous plot can be generalized for every month, and wrapped into an animation: -->
+<!-- ## Individuals -->
+<!-- We can now display individuals on top of each month to identify possible groups in the population: -->
+<!-- Even though some individuals are at times geographically distinct from the rest of the population, it seems that their behaviour is more or less consistent (or at least overlapping) with the general selection on climatic conditions. -->
+<!-- Video stuff -->
+<!-- <\!-- JavaScript for SciAnimator library -\-> -->
+<!-- <\!-- Needs to include 'assets' folder from the library -\-> -->
+<!-- <script src="assets/js/jquery-1.4.4.min.js"></script> -->
+<!-- <script src="assets/js/jquery.scianimator.pack.js"></script> -->
+<!-- <script src="assets/js/jquery.scianimator.js"></script> -->
+<!-- <script src="assets/js/index.js"></script> -->
+<!-- ```{r Rinit, include = FALSE, cache = FALSE} -->
+<!-- knit_hooks$set(hook_ffmpeg_html = function(x, options)  -->
+<!-- { -->
+<!--     fig.num = options$fig.num -->
+<!--     ffmpeg.opts = options$aniopts -->
+<!--     fig.fname = str_c(sub(str_c(fig.num, "$"), "%d", x[1]), ".",  -->
+<!--         x[2]) -->
+<!--     mov.fname = str_c(sub(paste(fig.num, "$", sep = ""), "",  -->
+<!--         x[1]), ".mp4") -->
+<!--     if (is.na(ffmpeg.opts))  -->
+<!--         ffmpeg.opts = NULL -->
+<!--     ffmpeg.cmd = paste("ffmpeg", "-y", "-r", 1/options$interval,  -->
+<!--         "-i", fig.fname, mov.fname) -->
+<!--     message("executing: ", ffmpeg.cmd) -->
+<!--     system(ffmpeg.cmd, ignore.stdout = TRUE) -->
+<!--     mov.opts = sc_split(options$aniopts) -->
+<!--     opt.str = paste(sprintf("width=%s", options$out.width), sprintf("height=%s",  -->
+<!--         options$out.height), if ("controls" %in% mov.opts)  -->
+<!--         "controls=\"controls\"", if ("loop" %in% mov.opts)  -->
+<!--         "loop=\"loop\"") -->
+<!--     sprintf("<video %s><source src=\"%s\" />video of chunk %s</video>",  -->
+<!--         opt.str, str_c(opts_knit$get("base.url"), mov.fname),  -->
+<!--         options$label) -->
+<!-- }) -->
+<!-- ## opts_knit$get(animation.fun = hook_ffmpeg_html_mp4) -->
+<!-- ``` -->
+</div>
+</div>
+<h3> References</h3>
+<div id="refs" class="references">
+<div id="ref-Fieberg_2005">
+<p>Fieberg, John, and Christopher O. Kochanny. 2005. “Quantifying Home-Range Overlap: The Importance of the Utilization Distribution.” <em>Journal of Wildlife Management</em> 69 (4): 1346–59. doi:<a href="https://doi.org/10.2193/0022-541X(2005)69[1346:QHOTIO]2.0.CO;2">10.2193/0022-541X(2005)69[1346:QHOTIO]2.0.CO;2</a>.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="figures.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
